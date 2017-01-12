@@ -34,7 +34,8 @@ library
                         base >= 4 && < 5,
                         deepseq >= 1.1 && < 2
   extensions:           CPP
-  exposed-modules:      Data.DList
+  exposed-modules:      Data.DList,
+                        Data.DList.Internal
   ghc-options:          -Wall
 
 test-suite test
